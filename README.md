@@ -43,7 +43,7 @@ public class Main {
             e.printStackTrace();
         }
     }
-}```
+```
 
 ## JAVADOC
 [2.2](http://labs.smsapi.com/docs/javadoc/pl/smsapi/smsapi-lib/2.2/)
