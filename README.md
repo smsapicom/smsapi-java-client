@@ -26,7 +26,7 @@ public class Main {
             String passwordHash = "00000000000000000000000000000000";
             BasicAuthClient client = new BasicAuthClient("username", passwordHash);
 
-            SmsFactory smsApi = new SmsFactory(client, new ProxyNative("https://api.smsapi.com"));
+            SmsFactory smsApi = new SmsFactory(client, new ProxyNative("https://api.smsapi.com/"));
             String phoneNumber = "000000000";
             SMSSend action = smsApi.actionSend()
                     .setText("test")
